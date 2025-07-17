@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Other common Python ignores
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+

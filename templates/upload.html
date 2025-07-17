@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Upload Image</title></head>
+<body>
+  <h1>Upload an Image</h1>
+  <form method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="image/*" required>
+    <button type="submit">Upload</button>
+  </form>
+
+  {% if img_url %}
+    <h2>uploaded image:</h2>
+    <img src="{{ img_url }}" style="max-width:300px;">
+  {% endif %}
+</body>
+</html>
