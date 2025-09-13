@@ -201,8 +201,8 @@ plt.show()
 # -----------------------------
 # STEP 7: Save final model
 # -----------------------------
-model.save("pest_model_final.h5")
-print("✅ Model saved as pest_model_final.h5 and best_model.h5")
+model.save("pest_model_final.keras")
+print("✅ Model saved as pest_model_final.keras and best_model.h5")
 
 # -----------------------------
 # STEP 8: Evaluate on test set
